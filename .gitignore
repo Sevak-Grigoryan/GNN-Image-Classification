@@ -1,0 +1,55 @@
+# ==========================================================
+#  CONFIDENTIAL DATA - must never be committed (see DATA.md)
+# ==========================================================
+data/*
+!data/README.md
+
+# Raw images / signal samples and any rendered outputs that embed them
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tif
+*.tiff
+*.npy
+*.npz
+*.csv
+*.h5
+*.hdf5
+*.mat
+*.pkl
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Script outputs (layer visualizations / saliency maps show real samples)
+outputs/
+**/ALL_RESULTS*/
+**/RESULTS_*/
+**/saved_layers/
+
+# Trained weights (derived from the confidential dataset)
+*.pth
+*.pt
+*.ckpt
+checkpoints/*
+!checkpoints/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

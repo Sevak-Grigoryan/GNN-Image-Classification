@@ -1,0 +1,15 @@
+Classification Report (TEST)
+              precision    recall  f1-score   support
+
+         Car       0.94      0.90      0.92       352
+       Human       0.90      0.93      0.91       333
+       Noice       0.99      1.00      0.99       225
+
+    accuracy                           0.94       910
+   macro avg       0.94      0.94      0.94       910
+weighted avg       0.94      0.94      0.94       910
+
+Confusion Matrix
+317 34 1
+22 310 1
+0 1 224
